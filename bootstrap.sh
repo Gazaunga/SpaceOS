@@ -60,8 +60,6 @@ touch .gemrc
 echo "gem: --no-user-install" >> .gemrc
 export PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 exec $SHELL
-touch .xinitrc
-echo "emacs -fs" >> .xinitrc
 touch .bash_profile
 cat > .bash_profile <<- "EOF"
 if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
