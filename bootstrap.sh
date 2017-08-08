@@ -53,7 +53,8 @@ pacaur -Syu --noconfirm xorg-xinit xorg-server emacs adobe-source-code-pro-fonts
   rtv \
   w3m \
   source-highlight \
-  colormake-git
+  colormake-git \
+  console-tdm
 cd ~
 touch .gemrc
 echo "gem: --no-user-install" >> .gemrc
