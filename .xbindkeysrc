@@ -1,0 +1,11 @@
+# increase volume
+ "pamixer --increase 5"
+ XF86AudioRaiseVolume
+
+# decrease volume
+"pamixer --decrease 5"
+XF86AudioLowerVolume
+
+# screenshot Bash script lifted from Manjaro-i3
+"i3-scrot"
+Print
