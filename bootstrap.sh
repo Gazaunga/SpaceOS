@@ -63,5 +63,5 @@ if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
 fi
 EOF
 wget https://raw.githubusercontent.com/Gazaunga/Spacemacs/master/.spacemacs -O .spacemacs
-gem install pry ruby_parser rubocop bundler
+sudo gem install --no-user-install pry ruby_parser rubocop bundler rails prawn
 startx
