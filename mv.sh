@@ -27,5 +27,5 @@ e_success() { printf "${green}✔ %s${reset}\n" "$@"
 }
 
 cd ~
-dirmerge $HOME/SpaceOS/* $HOME/SpaceOS/*. $HOME/
+dirmerge $HOME/SpaceOS/* $HOME/
 e_success "Directories Merged!"
