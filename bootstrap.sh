@@ -15,11 +15,12 @@ sudo make install
 cd ~
 ruby-install --latest ruby
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-pacaur -Syu --noconfirm xorg-xinit xorg-server emacs adobe-source-code-pro-fonts \
+pacaur -Syu --noconfirm stumpwm-git virtualbox-guest-
+pacaur -Syu --noconfirm --noedit xorg-xinit xorg-server emacs adobe-source-code-pro-fonts \
   adobe-source-sans-pro-fonts \
   adobe-source-serif-pro-fonts \
   otf-texgyre \
-  #ttf-chromeos-fonts \
+  ttf-chromeos-fonts \
   ttf-clear-sans \
   ttf-liberation \
   ttf-linux-libertine \
