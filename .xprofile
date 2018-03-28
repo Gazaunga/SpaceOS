@@ -1,5 +1,5 @@
-if [ -x "$HOME/.rbenv/bin/rbenv" ]; then
-    eval "$(rbenv init -)"
+if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+  exec startx
 fi
 
 EDITOR=emacsclient
